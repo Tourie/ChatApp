@@ -42,6 +42,8 @@ namespace ChatApp
             
                 Task listening = new Task(TryConnect);
                 listening.Start();
+                Task checker = new Task(Check);
+                checker.Start();
 
                 while (true)
                 {
@@ -91,6 +93,7 @@ namespace ChatApp
                     {
                         bytes = ListeningSocket.ReceiveFrom(data, ref remoteIp);
                         builder.Append(Encoding.Unicode.GetString(data, 0, bytes));
+                        
                     } while (ListeningSocket.Available > 0);
 
                     if(State == State.pending)
@@ -100,10 +103,10 @@ namespace ChatApp
                     }
 
                     IPEndPoint fullEndPoint = remoteIp as IPEndPoint;
-                    if (fullEndPoint?.Port == CurPerson.RemoteIp.Port)
+                    if (fullEndPoint?.Port == CurPerson.RemoteIp.Port && builder.ToString() != String.Empty)
                     {
                         SessionMessages.Add(builder.ToString());
-                        Console.WriteLine(builder);
+                        Console.WriteLine(builder.ToString());
                     }
                 }
             }
@@ -137,6 +140,14 @@ namespace ChatApp
             foreach (var msg in SessionMessages)
             {
                 Send(msg);
+            }
+        }
+
+        public static void Check()
+        {
+            while (true)
+            {
+                Send("");
             }
         }
     }

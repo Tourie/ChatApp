@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Makar\\source\\repos\\ChatApp\\ChatApp\\ChatApp.csproj",
+      "projectUniqueName": "C:\\Users\\Makar\\Documents\\GitHub\\ChatApp\\ChatApp\\ChatApp.csproj",
       "projectName": "ChatApp",
-      "projectPath": "C:\\Users\\Makar\\source\\repos\\ChatApp\\ChatApp\\ChatApp.csproj",
+      "projectPath": "C:\\Users\\Makar\\Documents\\GitHub\\ChatApp\\ChatApp\\ChatApp.csproj",
       "packagesPath": "C:\\Users\\Makar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Makar\\source\\repos\\ChatApp\\ChatApp\\obj\\",
+      "outputPath": "C:\\Users\\Makar\\Documents\\GitHub\\ChatApp\\ChatApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Makar\\AppData\\Roaming\\NuGet\\NuGet.Config",
