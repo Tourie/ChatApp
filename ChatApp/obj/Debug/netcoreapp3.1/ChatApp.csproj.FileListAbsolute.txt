@@ -1,0 +1,13 @@
+C:\Users\Makar\source\repos\ChatApp\ChatApp\bin\Debug\netcoreapp3.1\ChatApp.exe
+C:\Users\Makar\source\repos\ChatApp\ChatApp\bin\Debug\netcoreapp3.1\ChatApp.deps.json
+C:\Users\Makar\source\repos\ChatApp\ChatApp\bin\Debug\netcoreapp3.1\ChatApp.runtimeconfig.json
+C:\Users\Makar\source\repos\ChatApp\ChatApp\bin\Debug\netcoreapp3.1\ChatApp.runtimeconfig.dev.json
+C:\Users\Makar\source\repos\ChatApp\ChatApp\bin\Debug\netcoreapp3.1\ChatApp.dll
+C:\Users\Makar\source\repos\ChatApp\ChatApp\bin\Debug\netcoreapp3.1\ChatApp.pdb
+C:\Users\Makar\source\repos\ChatApp\ChatApp\obj\Debug\netcoreapp3.1\ChatApp.csprojAssemblyReference.cache
+C:\Users\Makar\source\repos\ChatApp\ChatApp\obj\Debug\netcoreapp3.1\ChatApp.AssemblyInfoInputs.cache
+C:\Users\Makar\source\repos\ChatApp\ChatApp\obj\Debug\netcoreapp3.1\ChatApp.AssemblyInfo.cs
+C:\Users\Makar\source\repos\ChatApp\ChatApp\obj\Debug\netcoreapp3.1\ChatApp.csproj.CoreCompileInputs.cache
+C:\Users\Makar\source\repos\ChatApp\ChatApp\obj\Debug\netcoreapp3.1\ChatApp.dll
+C:\Users\Makar\source\repos\ChatApp\ChatApp\obj\Debug\netcoreapp3.1\ChatApp.pdb
+C:\Users\Makar\source\repos\ChatApp\ChatApp\obj\Debug\netcoreapp3.1\ChatApp.genruntimeconfig.cache
