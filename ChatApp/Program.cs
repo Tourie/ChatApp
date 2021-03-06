@@ -80,7 +80,6 @@ namespace ChatApp
             {
                 string msg = CurPerson.Id + " joined!\n";
                 Send(msg);
-                RecreateHistory();
 
                 while (true)
                 {
